@@ -6,7 +6,7 @@ public class visualSequence_v {
 	public static void main(String[] args) {
 		
 		ArrayList<String> star = new ArrayList<String>();
-		int colLimit = 9; // found out later, this breaks when higher than 10. May show a flaw in code logic. 
+		int colLimit = 9; // found out later, this breaks when higher than 10. 
 		int middle = Math.round(colLimit)/2;  // find centre starting point.
 		
 		// fill all elements, initially with spaces
@@ -14,7 +14,7 @@ public class visualSequence_v {
 			star.add(" ");
 		}		
 		
-		// There may be a problem in the logic when columns are 
+		// There may be a problem with double digits when columns are 
 		// higher than a certain value, i.e I know it fails on 12.
 		
 		// Set middle column element then elements out from there, left  
